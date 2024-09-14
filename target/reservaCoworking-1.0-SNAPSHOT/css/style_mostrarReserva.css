@@ -1,0 +1,87 @@
+/* 
+* Establece el ancho de la sección principal en 350px.
+*/
+main {
+    width: 350px;
+}
+
+/* 
+* Establece los estilos para la sección de reservas.
+* Establece el color de fondo en blanco (#fff), el padding en 20px, y el borde en 1px solid gris (#ddd).
+* También establece el radio de borde en 10px y agrega una sombra de caja.
+* Finalmente, establece el margen inferior en 20px y el ancho en auto, lo que hace que la sección tome todo el ancho disponible.
+*/
+.reservation-section {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: auto;
+}
+
+/* 
+* Establece los estilos para los párrafos dentro de la sección de reservas.
+* Establece el tamaño de fuente en 16px, el color en un gris oscuro (#333), y el margen inferior en 10px.
+*/
+.reservation-section p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* 
+* Establece los estilos para la sección de botones.
+* Establece el margen superior en 20px, el padding en 20px, y el borde en 1px solid gris (#ddd).
+* También establece el radio de borde en 10px y agrega una sombra de caja para darle un efecto 3D sutil.
+*/
+.button-section {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 
+* Establece los estilos para los títulos h1 dentro de la sección de botones.
+* Establece el tamaño de fuente en 18px y el margen inferior en 10px.
+*/
+.button-section h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* 
+* Establece los estilos para los párrafos dentro de la sección de botones.
+* Establece el tamaño de fuente en 16px, el color en un gris oscuro (#333), y el margen inferior en 10px.
+*/
+.button-section p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* 
+* Establece los estilos para el botón de envío.
+* Establece el color de fondo en verde (#4CAF50), el color de texto en blanco (#fff), y el padding en 10px 20px.
+* También establece el borde en none y el radio de borde en 5px.
+* Finalmente, establece el cursor en pointer.
+*/
+.btn-submit {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* 
+* Establece los estilos para el botón de envío cuando se pasa el mouse por encima.
+* Establece el color de fondo en un verde más oscuro (#3e8e41).
+*/
+.btn-submit:hover {
+    background-color: #3e8e41;
+}

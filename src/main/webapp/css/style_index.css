@@ -1,0 +1,146 @@
+/* Estilos globales */
+/* 
+* Establece el modelo de caja en border-box, lo que significa que el padding y el borde se incluyen en el ancho y alto del elemento.
+* También establece el margen y el padding en 0, lo que elimina cualquier espacio predeterminado.
+*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* 
+* Establece la familia de fuentes en Open Sans, sans-serif, y el color de fondo en un gris claro (#f7f7f7).
+* También establece la pantalla en flex y la dirección de flex en columna.
+* El propiedad align-items se establece en center, lo que centra los hijos horizontalmente.
+* Finalmente, agrega 20px de padding al elemento body.
+*/
+body {
+    font-family: Open Sans, sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* 
+* Establece el color de fondo en un gris oscuro (#333), el color de texto en blanco (#fff), y el padding en 20px.
+* También establece la alineación de texto en center.
+*/
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* 
+* Establece el tamaño de fuente en 24px.
+*/
+.title {
+    font-size: 24px;
+}
+
+/* 
+* Establece la pantalla en flex y la dirección de flex en columna.
+* También establece la propiedad align-items en center, lo que centra horizontalmente.
+* Finalmente, agrega 20px de padding al elemento main.
+*/
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* 
+* Establece el color de fondo en blanco (#fff), el padding en 20px, y el borde en 1px solid gris (#ddd).
+* También establece el radio de borde en 10px y agrega una sombra de caja.
+* Finalmente, establece el ancho en -webkit-fill-available, lo que hace que la sección tome todo el ancho de su elemento padre.
+*/
+.form-section {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: -webkit-fill-available;
+}
+
+/* 
+* Establece el margen inferior en 20px, lo que agrega espacio entre los grupos de formularios.
+*/
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* 
+* Establece la pantalla en block, lo que hace que la etiqueta sea un elemento de nivel de bloque.
+* También establece el margen inferior en 10px, el peso de fuente en bold, y el color en un gris oscuro (#333).
+*/
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* 
+* Establece el ancho en 100%, el padding en 10px, y el borde en 1px solid gris (#ccc).
+*/
+input[type="text"], input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* 
+* Establece el color de borde en #aaa y agrega una sombra de caja cuando se enfoca.
+*/
+input[type="text"]:focus, input[type="date"]:focus {
+    border-color: #aaa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 
+* Establece el color de fondo en verde (#4CAF50), el color de texto en blanco (#fff), y el padding en 10px 20px.
+* También establece el borde en none y el radio de borde en 5px.
+* Finalmente, establece el cursor en pointer.
+*/
+.btn-submit {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* 
+* Establece el color de fondo en un verde más oscuro (#3e8e41) cuando se pasa el mouse por encima.
+*/
+.btn-submit:hover {
+    background-color: #3e8e41;
+}
+
+/* 
+* Establece el margen superior en 20px, el padding en 20px, y el borde en 1px solid gris (#ddd).
+* También establece el radio de borde en 10px y agrega una sombra de caja para darle un efecto 3D sutil.
+*/
+.list-section {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 
+* Establece el padding superior e inferior en 15px.
+*/
+p {
+  padding-bottom: 15px;  
+  padding-top: 15px;  
+}
